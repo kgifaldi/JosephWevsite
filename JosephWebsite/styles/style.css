@@ -1,6 +1,41 @@
 
 .navbar{
-
 	background-color: #fff;
+	z-index: 1000;
 }
 
+
+.beginContent{
+	margin-top:100px;
+	z-index:100;
+	padding-top: 500px;
+
+}
+.topper{
+		background-color: #f5b335;
+		height: auto;
+		width: 100%;
+		position: fixed;
+		top: 80;
+		z-index:-10;
+}
+
+body{
+	width: 100%;
+	background-color: transparent;
+	background: transparent;
+}
+
+
+.parallax-window {
+	min-height: 700px;
+	background: transparent;
+}
+
+.top-par{
+	margin-top: 300px;
+}
+
+.bottom-par{
+	margin-bottom: 300px;
+}
