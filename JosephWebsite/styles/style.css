@@ -6,9 +6,7 @@
 
 
 .beginContent{
-	margin-top:100px;
 	z-index:100;
-	padding-top: 500px;
 
 }
 .topper{
@@ -33,9 +31,36 @@ body{
 }
 
 .top-par{
-	margin-top: 300px;
+	margin-top:-175px;
 }
 
 .bottom-par{
-	margin-bottom: 300px;
+	margin-bottom: 0px;
+}
+
+*{
+font-family: 'Open Sans';
+}
+
+.navbar{
+	background-color:#C81010;
+	border-bottom: .5px solid white;
+	opacity:.95;
+}
+
+.top-quote{
+	margin-top:0px;
+}
+
+.tab a{
+	color: white;
+	text-decoration: none;
+}
+
+navbar{
+	text-decoration: none;
+}
+
+.tab a:hover{
+	color:black;
 }
